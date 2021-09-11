@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+dfdfsfss
+sdfsfds
 unsigned char ResetBit(unsigned char data, unsigned char bitNum){
     if (bitNum <8){ //1byte 변수라서 비트 이동은 0~7까지만 가능함
         data = data & ~(0x01 << bitNum); //shift 변경 역 후 값을 반환
